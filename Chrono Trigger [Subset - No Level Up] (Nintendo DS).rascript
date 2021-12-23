@@ -308,12 +308,8 @@ function Monster_Arena_Prize() => word(0x0FD7D0)
 achievement
 (
     title = "A Prayer to the Road that Leads",
-    description = "Obtain the Workman's Wallet from the Arena of the Ages",
-    points = 5,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
+    description = "Obtain the Workman's Wallet from the Arena of the Ages.",
+    points = 10,
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Arena_of_the_Ages &&
@@ -325,10 +321,6 @@ achievement
     title = "The Cathedral",
     description = "Defeat Yakra.",
     points = 10,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Manolia_Cathedral &&
@@ -344,10 +336,6 @@ achievement
     title = "Dragon's Prayer",
     description = "Defeat the Dragon Tank.",
     points = 25,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Prison_Towers &&
@@ -366,10 +354,6 @@ achievement
     title = "People Without Hope",
     description = "Defeat the Guardian.",
     points = 10,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Arris_Dome_Substructure &&
@@ -387,10 +371,6 @@ achievement
     title = "Remains of the Factory",
     description = "Defeat the R-Series.",
     points = 25,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Derelict_Facility &&
@@ -411,10 +391,6 @@ achievement
     title = "Mystic of the East",
     description = "Defeat Heckran.",
     points = 25,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Heckran_Cave &&
@@ -428,12 +404,8 @@ achievement
 achievement
 (
     title = "Haunted by the Skeleton",
-    description = "Defeat zombor.",
+    description = "Defeat Zombor.",
     points = 10,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Zenan_Bridge &&
@@ -450,10 +422,6 @@ achievement
     title = "Swords in the Wind",
     description = "Defeat Masamune.",
     points = 25,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Denadoro_Mountains &&
@@ -469,10 +437,6 @@ achievement
     title = "Way Before the Day Before Yesterday",
     description = "Defeat Nizbel.",
     points = 5,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Reptite_Lair &&
@@ -488,10 +452,6 @@ achievement
     title = "Knight of the Swords",
     description = "Defeat Slash.",
     points = 25,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Fiendlords_Keep_I &&
@@ -507,10 +467,6 @@ achievement
     title = "Walk on the wild Side",
     description = "Defeat Flea.",
     points = 10,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Fiendlords_Keep_II &&
@@ -526,10 +482,6 @@ achievement
     title = "Black Wind Rising",
     description = "Defeat Magus.",
     points = 25,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Fiendlords_Keep_III &&
@@ -545,10 +497,6 @@ achievement
     title = "Dinosaur Rumble",
     description = "Defeat Nizbel II.",
     points = 50,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Tyranno_Lair_I &&
@@ -564,10 +512,6 @@ achievement
     title = "Passing Through History",
     description = "Defeat Azala and the Black Tyranno.",
     points = 25,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Tyranno_Lair_II &&
@@ -582,11 +526,7 @@ achievement
 (
     title = "In the Room of Secrets",
     description = "Defeat 6 Nus at once.",
-    points = 0,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
+    points = 10,
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Enhasa &&
@@ -603,11 +543,7 @@ achievement
 (
     title = "This is the Kingdom",
     description = "Defeat Golem at Zeal.",
-    points = 0,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
+    points = 10,
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Zeal_Palace_I &&
@@ -623,10 +559,6 @@ achievement
     title = "Kickin' up Mud",
     description = "Defeat the Mud Imp.",
     points = 25,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Mudbeast_Den &&
@@ -643,11 +575,7 @@ achievement
 (
     title = "Singing Mountain",
     description = "Defeat Giga Gaia.",
-    points = 5,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
+    points = 10,
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Mountain_of_Woe &&
@@ -665,10 +593,6 @@ achievement
     title = "King of Anything",
     description = "Defeat Dalton at Zeal.",
     points = 5,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Zeal_Palace_II &&
@@ -684,10 +608,6 @@ achievement
     title = "To the End of the Sea and Sky",
     description = "Defeat the Golem Twins at the Ocean Palace.",
     points = 10,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Ocean_Palace &&
@@ -704,10 +624,6 @@ achievement
     title = "Wings That Cross Time",
     description = "Defeat King Dalton.",
     points = 5,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Blackbird &&
@@ -723,10 +639,6 @@ achievement
     title = "The Dark Defender",
     description = "Defeat Magus at the North Cape.",
     points = 10,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == North_Cape &&
@@ -742,10 +654,6 @@ achievement
     title = "Atonement",
     description = "Defeat Magus at the North Cape with Frog by himself.",
     points = 10,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == North_Cape &&
@@ -761,11 +669,7 @@ achievement
 (
     title = "Transient Sands",
     description = "Defeat Melphyx.",
-    points = 5,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
+    points = 10,
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Sunken_Desert &&
@@ -782,11 +686,7 @@ achievement
 (
     title = "Tone-deaf, Evil Fiends",
     description = "Defeat Ozzie, Slash, and Flea.",
-    points = 0,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
+    points = 10,
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Ozzies_Fort &&
@@ -804,10 +704,6 @@ achievement
     title = "Suite for a Robotic Girl",
     description = "Defeat Atropos XR.",
     points = 10,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Geno_Dome &&
@@ -821,11 +717,7 @@ achievement
 (
     title = "In the Robot Factory",
     description = "Defeat Mother Brain.",
-    points = 5,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
+    points = 10,
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Geno_Dome &&
@@ -840,11 +732,7 @@ achievement
 (
     title = "Halo of the Sun",
     description = "Defeat Son of Sun.",
-    points = 0,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
+    points = 10,
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Sun_Temple &&
@@ -860,10 +748,6 @@ achievement
     title = "Everything Remains Jurassic",
     description = "Defeat Rust Tyranno.",
     points = 10,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == 0x00C5 &&
@@ -879,10 +763,6 @@ achievement
     title = "Kingdom Trial",
     description = "Defeat Yakra XIII.",
     points = 10,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Guardia_Castle &&
@@ -897,11 +777,7 @@ achievement
 (
     title = "We are the Mutants",
     description = "Defeat Mega Mutant.",
-    points = 0,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
+    points = 10,
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Black_Omen_I &&
@@ -918,10 +794,6 @@ achievement
     title = "Toxic Waste Mutation",
     description = "Defeat Giga Mutant.",
     points = 25,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Black_Omen_II &&
@@ -938,10 +810,6 @@ achievement
     title = "Swarm of Mutation",
     description = "Defeat Tera Mutant.",
     points = 25,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Black_Omen_III &&
@@ -958,10 +826,6 @@ achievement
     title = "Where Evil Grows",
     description = "Defeat the Elder Lavos Spawn.",
     points = 50,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Black_Omen_IV &&
@@ -978,10 +842,6 @@ achievement
     title = "What He's Given Me",
     description = "Defeat Queen Zeal.",
     points = 5,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Black_Omen_V &&
@@ -996,10 +856,6 @@ achievement
     title = "Feed the Machine",
     description = "Defeat Mammon Machine.",
     points = 10,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Black_Omen_VI &&
@@ -1014,10 +870,6 @@ achievement
     title = "Killer Queen",
     description = "Defeat Queen Zeal (Face).",
     points = 50,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Black_Omen_VII &&
@@ -1034,10 +886,6 @@ achievement
     title = "Poison in the Well",
     description = "Defeat Lavos.",
     points = 10,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Lavos_Arena &&
@@ -1052,10 +900,6 @@ achievement
     title = "Fight From the Inside",
     description = "Defeat Lavos' second form.",
     points = 10,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Inner_Lavos_I &&
@@ -1071,11 +915,7 @@ achievement
 (
     title = "World Revolution",
     description = "Defeat Lavos' final form.",
-    points = 10,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
+    points = 25,
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Inner_Lavos_II &&
@@ -1091,11 +931,7 @@ achievement
 (
     title = "Secret of the Forest",
     description = "Defeat Goldhammer.",
-    points = 0,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
+    points = 5,
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Millennia_Wood &&
@@ -1110,11 +946,7 @@ achievement
 (
     title = "Rocky Mountain Way",
     description = "Defeat the Nu Guardian.",
-    points = 0,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
+    points = 5,
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Mount_Emerald_I &&
@@ -1129,11 +961,7 @@ achievement
 (
     title = "Primitive Mountain",
     description = "Defeat the Nu Master.",
-    points = 0,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
+    points = 10,
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Mount_Emerald_II &&
@@ -1148,11 +976,7 @@ achievement
 (
     title = "Switchblade Fangs",
     description = "Defeat the Archaeofangs.",
-    points = 0,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
+    points = 25,
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Primeval_Fortress &&
@@ -1168,11 +992,7 @@ achievement
 (
     title = "Departed Souls",
     description = "Defeat the Master-at-Arms and the Bladesman.",
-    points = 0,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
+    points = 10,
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Tower_of_the_Ancients &&
@@ -1189,10 +1009,6 @@ achievement
     title = "Bombin' Shade of Blue",
     description = "Defeat the Alabaster Shade.",
     points = 10,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Twilight_Grotto_I &&
@@ -1208,10 +1024,6 @@ achievement
     title = "Fall From Grace",
     description = "Defeat King Dalton.",
     points = 10,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Twilight_Grotto_II &&
@@ -1227,10 +1039,6 @@ achievement
     title = "Blades of Steel",
     description = "Defeat Steel Shade.",
     points = 10,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Twilight_Grotto_III &&
@@ -1246,10 +1054,6 @@ achievement
     title = "One More Red Nightmare",
     description = "Defeat the Crimson Shade.",
     points = 10,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Twilight_Grotto_IV &&
@@ -1265,11 +1069,7 @@ achievement
 (
     title = "The Dream That Time Dreams",
     description = "Defeat Dream Devourer.",
-    points = 10,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
+    points = 25,
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == Times_Eclipse &&
@@ -1284,10 +1084,6 @@ achievement
     title = "You Can do Magic",
     description = "Defeat Spekkio's weakest form.",
     points = 5,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == The_End_of_Time &&
@@ -1301,11 +1097,7 @@ achievement
 (
     title = "Delightful Spekkio",
     description = "Defeat Spekkio's second weakest form.",
-    points = 0,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
+    points = 5,
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == The_End_of_Time &&
@@ -1319,11 +1111,7 @@ achievement
 (
     title = "Spekkio the Brave",
     description = "Defeat Spekkio in his fourth form.",
-    points = 0,
-    id = 0,
-    published = "",
-    modified = "",
-    badge = "80",
+    points = 5,
     trigger = Base_Level() &&
               Base_Stats() &&
               Room_ID() == The_End_of_Time &&
