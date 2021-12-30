@@ -464,7 +464,7 @@ achievement
 
 achievement
 (
-    title = "Walk on the wild Side",
+    title = "Walk on the Wild Side",
     description = "Defeat Flea.",
     points = 10,
     trigger = Base_Level() &&
