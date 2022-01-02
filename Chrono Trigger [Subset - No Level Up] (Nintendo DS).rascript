@@ -952,7 +952,7 @@ achievement
               Room_ID() == Mount_Emerald_I &&
               In_Battle() &&
               Wallet_Equipped() &&
-              Enemy_3_ID() == Nu_Guardian &&
+              Enemy_1_ID() == Nu_Guardian &&
               prev(Enemy_1_HP()) > 0 &&
               trigger_when(Enemy_1_HP() == 0)
 )
