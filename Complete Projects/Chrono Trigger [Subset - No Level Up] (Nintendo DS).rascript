@@ -51,13 +51,13 @@ function Robo_Base_Speed_Calculation() =>
     (Robo_Base_Speed() == 6 && Atropos_XR_Defeated() == False) || (Robo_Base_Speed() == 9 && Atropos_XR_Defeated() == True)
 
 function Marle_Base_Speed_Calculation() =>
-    (Marle_Base_Speed() == 8 && Alabaster_Shade_Defeated() == False) || (Marle_Base_Speed() == 10 && Alabaster_Shade_Defeated() == True)
+    (Marle_Base_Speed() == 8 && Alabaster_Shade_Defeated() == False) || (Marle_Base_Speed() <= 10 && Alabaster_Shade_Defeated() == True)
 
 function Crono_Base_Strength_and_Speed_Calculation() =>
-    (Crono_Base_Strength() == 5 && Crono_Base_Speed() == 12 && Steel_Shade_Defeated() == False) || (Crono_Base_Strength() == 7 && Crono_Base_Speed() == 13 && Steel_Shade_Defeated() == True)
+    (Crono_Base_Strength() == 5 && Crono_Base_Speed() == 12 && Steel_Shade_Defeated() == False) || (Crono_Base_Strength() <= 8 && Crono_Base_Speed() <= 13 && Steel_Shade_Defeated() == True)
 
 function Lucca_Base_Speed_and_Magic_Calculation() =>
-    (Lucca_Base_Speed() == 6 && Lucca_Base_Magic() == 8 && Crimson_Shade_Defeated() == False) || (Lucca_Base_Speed() == 9 && Lucca_Base_Magic() == 12 && Crimson_Shade_Defeated() == True)
+    (Lucca_Base_Speed() == 6 && Lucca_Base_Magic() == 8 && Crimson_Shade_Defeated() == False) || (Lucca_Base_Speed() <= 9 && Lucca_Base_Magic() <= 14 && Crimson_Shade_Defeated() == True)
 
 function Base_Stats() =>
     Crono_Base_Strength_and_Speed_Calculation() &&
