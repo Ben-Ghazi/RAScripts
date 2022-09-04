@@ -196,3 +196,24 @@ achievement
               No_Cheating() &&
               Mission_Complete == True
 )
+
+achievement
+(
+    title = "AR-7 Sniper",
+    description = "Completed \"Ranch\" on 00 Agent under 5:25",
+    points = 10,
+    id = 117229,
+    badge = "127560",
+    published = "7/9/2020 2:32:51 PM",
+    modified = "7/15/2020 8:55:41 AM",
+    trigger = Level == Ranch &&
+              byte(0x075D58) == 0x01 &&
+              byte(0x075D68) == 0x01 &&
+              byte(0x075D64) == 0x01 && 
+              byte(0x075D5C) == 0x01 &&
+              byte(0x075D60) == 0x01 &&
+              Difficulty == OO_Agent &&
+              No_Cheating() &&
+              Timer < 0x4C68 &&
+              Mission_Complete == True
+)
