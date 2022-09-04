@@ -55,3 +55,12 @@ achievement(
               once(byte(0x075D58) == 0x00) && once(byte(0x075D64) == 0x00) && byte(0x02A8FC) >= 0x01 && byte(0x02A900)
                == 0x00
 )
+
+achievement(
+    title = "AR-7 Sniper", description = "Completed \"Ranch\" on 00 Agent under 5:25", points = 10,
+    id = 117229, badge = "127560", published = "7/9/2020 2:32:51 PM", modified = "7/15/2020 8:55:41 AM",
+    trigger = byte(0x02A8F8) == 0x14 && byte(0x075D58) == 0x01 && byte(0x075D68) == 0x01 && byte(0x075D64) == 0x01 && 
+              byte(0x075D5C) == 0x01 && byte(0x075D60) == 0x01 && never(byte(0x02A8F8) != 0x14) && once(byte(0x075D58)
+               == 0x00) && once(byte(0x075D64) == 0x00) && once(byte(0x075D64) == 0x00) && byte(0x02A8FC) == 0x02 && 
+              byte(0x02A900) == 0x00 && never(byte(0x0ABD2C) == 0x00) && word(0x079A20) < 0x4C68
+)
